@@ -1,0 +1,6 @@
+<!--components/circleListView/index.wxml-->
+<view class='avatar-wrapper'>
+  <view wx:for='{{avatarList}}' wx:for-item='item' wx:key='index'>
+    <image class='avatar' src='{{item.avatar}}' style="width: {{imageWidth}}rpx;height: {{imageHeight}}rpx;border-radius: {{borderRadius}}rpx;margin: {{margin}}rpx"></image>
+  </view>
+</view>

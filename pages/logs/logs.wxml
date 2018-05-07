@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<zan-noticebar text="{{ bar1.text }}" scrollable="{{ bar1.scrollable }}" color='{{color}}' background-color='{{backgroundColor}}'/>
+
+<view class='circle-list-view' bindtap='showShare'>
+  <circleListView
+    avatarList="{{avatarList}}"
+    imageWidth="80"
+    imageHeight="80"
+    borderRadius="40"
+    margin="10"
+  />
+</view>

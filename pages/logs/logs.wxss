@@ -1,0 +1,19 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+.notice{
+  width: 50%;
+  height: 100rpx;
+  background-color: #fff;
+}
+
+.circle-list-view{
+  width: 80%;
+  margin-left: 10%;
+}

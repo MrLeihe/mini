@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看启动日志",
+  "usingComponents": {
+    "zan-noticebar": "../../components/noticebar/index",
+    "circleListView": "../../components/circleListView/index"
+  }
+}
